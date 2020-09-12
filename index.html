@@ -1,7 +1,376 @@
 <html>
 <head>
+<title>
+akhilmovies</title>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="fevicon.png" type="image/png" sizes="16x16">
 </head>
-<body>
-<h1>>Hello world</h1>
+<body background= "bg img.jpg"width="900px" hight="600px">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/h5ab-snow-flurry.js"></script>
+
+<div class="header"><center>
+  <img src="logo.png" class="logo"width="350px"height="120px"></center>
+<div class="header-right">
+    <a class="active" href="https://apatnaik994.github.io/AKHIL-MOVIES/">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+<pre>
+
+</pre>
+
+<marquee behavior="scroll" direction="left">Hello visitors..Welcome to Akhil movies Here you can Watch/ download all Ott premium contents for Free.. </marquee>
+<pre>
+</pre>
+
+<div style="background-color:#cfb0b0ad"><center>
+<h3 class="glow">UPCOMING BLOCKBUSTERS..</h3></center></div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="avatar.jpg" style="width:100%">
+  <div class="text">Avatar 2</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="kgf2.jpg" style="width:100%">
+  <div class="text">Kgf2</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="ww2.jpg" style="width:100%">
+  <div class="text">Wonder Women2</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Tenet_movie.jpg" style="width:100%">
+  <div class="text">Tenet</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="svp.jpg" style="width:100%">
+  <div class="text">Sarkaru Vaari Paata</div>
+</div>
+	
+
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="BW.jpg" style="width:100%">
+  <div class="text">Black Widow</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="RS.jpg" style="width:100%">
+  <div class="text">Raadhe shyaam</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="LS.jpg" style="width:100%">
+  <div class="text">Love story</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="vs.jpg" style="width:100%">
+  <div class="text">Vakeel Saab</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="sbsb.jpg" style="width:100%">
+  <div class="text">Solo life Soo betteru</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  
+  <span class="dot"></span> 
+
+<span class="dot"></span>
+<span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+  
+  
+<div class="heroImage">
+<pre> 
+</pre>
+	<div class="heroContents">
+
+		<center><h1 style="color:#d1a544f2">тєℓυgυ мσνιєѕ</h1></center>
+<pre>
+
+</pre>
+		<center><a href="Telugu.html"><button class="button button1">Watch Here</button></a></center>
+	</div>
+</div>
+	
+	
+<div class="heroImage2">
+<pre> 
+</pre>
+
+	<div class="heroContents">
+
+		<center><h1 style="color:#d1a544f2">нσℓℓуωσσ∂ мσνιєѕ</h1></center>
+<pre>
+
+</pre>
+		<center><a href="Hollywood.html"><button class="button button1">Watch Here</button></a></center>
+	</div>
+</div>
+
+
+
+
+
+
+
+<footer>
+  <p><b>Site by: Akhil kumar patnaik.V</b><br>
+  2020 Google All Rights reserved</p>
+</footer>
+	<style>
+  #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+</style>
+
+<div id="snowflakeContainer">
+  <span class="snowflake"></span>
+</div>
+
+<script>
+  // Array to store our Snowflake objects
+  var snowflakes = [];
+
+  // Global variables to store our browser's window size
+  var browserWidth;
+  var browserHeight;
+
+  // Specify the number of snowflakes you want visible
+  var numberOfSnowflakes = 50;
+
+  // Flag to reset the position of the snowflakes
+  var resetPosition = false;
+
+  // Handle accessibility
+  var enableAnimations = false;
+  var reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
+
+  // Handle animation accessibility preferences 
+  function setAccessibilityState() {
+    if (reduceMotionQuery.matches) {
+      enableAnimations = false;
+    } else { 
+      enableAnimations = true;
+    }
+  }
+  setAccessibilityState();
+
+  reduceMotionQuery.addListener(setAccessibilityState);
+
+  //
+  // It all starts here...
+  //
+  function setup() {
+    if (enableAnimations) {
+      window.addEventListener("DOMContentLoaded", generateSnowflakes, false);
+      window.addEventListener("resize", setResetFlag, false);
+    }
+  }
+  setup();
+
+  //
+  // Constructor for our Snowflake object
+  //
+  function Snowflake(element, speed, xPos, yPos) {
+    // set initial snowflake properties
+    this.element = element;
+    this.speed = speed;
+    this.xPos = xPos;
+    this.yPos = yPos;
+    this.scale = 1;
+
+    // declare variables used for snowflake's motion
+    this.counter = 0;
+    this.sign = Math.random() < 0.5 ? 1 : -1;
+
+    // setting an initial opacity and size for our snowflake
+    this.element.style.opacity = (.1 + Math.random()) / 3;
+  }
+
+  //
+  // The function responsible for actually moving our snowflake
+  //
+  Snowflake.prototype.update = function () {
+    // using some trigonometry to determine our x and y position
+    this.counter += this.speed / 5000;
+    this.xPos += this.sign * this.speed * Math.cos(this.counter) / 40;
+    this.yPos += Math.sin(this.counter) / 40 + this.speed / 30;
+    this.scale = .5 + Math.abs(10 * Math.cos(this.counter) / 20);
+
+    // setting our snowflake's position
+    setTransform(Math.round(this.xPos), Math.round(this.yPos), this.scale, this.element);
+
+    // if snowflake goes below the browser window, move it back to the top
+    if (this.yPos > browserHeight) {
+      this.yPos = -50;
+    }
+  }
+
+  //
+  // A performant way to set your snowflake's position and size
+  //
+  function setTransform(xPos, yPos, scale, el) {
+    el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0) scale(${scale}, ${scale})`;
+  }
+
+  //
+  // The function responsible for creating the snowflake
+  //
+  function generateSnowflakes() {
+
+    // get our snowflake element from the DOM and store it
+    var originalSnowflake = document.querySelector(".snowflake");
+
+    // access our snowflake element's parent container
+    var snowflakeContainer = originalSnowflake.parentNode;
+    snowflakeContainer.style.display = "block";
+
+    // get our browser's size
+    browserWidth = document.documentElement.clientWidth;
+    browserHeight = document.documentElement.clientHeight;
+
+    // create each individual snowflake
+    for (var i = 0; i < numberOfSnowflakes; i++) {
+
+      // clone our original snowflake and add it to snowflakeContainer
+      var snowflakeClone = originalSnowflake.cloneNode(true);
+      snowflakeContainer.appendChild(snowflakeClone);
+
+      // set our snowflake's initial position and related properties
+      var initialXPos = getPosition(50, browserWidth);
+      var initialYPos = getPosition(50, browserHeight);
+      var speed = 5 + Math.random() * 40;
+
+      // create our Snowflake object
+      var snowflakeObject = new Snowflake(snowflakeClone,
+        speed,
+        initialXPos,
+        initialYPos);
+      snowflakes.push(snowflakeObject);
+    }
+
+    // remove the original snowflake because we no longer need it visible
+    snowflakeContainer.removeChild(originalSnowflake);
+
+    moveSnowflakes();
+  }
+
+  //
+  // Responsible for moving each snowflake by calling its update function
+  //
+  function moveSnowflakes() {
+
+    if (enableAnimations) {
+      for (var i = 0; i < snowflakes.length; i++) {
+        var snowflake = snowflakes[i];
+        snowflake.update();
+      }      
+    }
+
+    // Reset the position of all the snowflakes to a new value
+    if (resetPosition) {
+      browserWidth = document.documentElement.clientWidth;
+      browserHeight = document.documentElement.clientHeight;
+
+      for (var i = 0; i < snowflakes.length; i++) {
+        var snowflake = snowflakes[i];
+
+        snowflake.xPos = getPosition(50, browserWidth);
+        snowflake.yPos = getPosition(50, browserHeight);
+      }
+
+      resetPosition = false;
+    }
+
+    requestAnimationFrame(moveSnowflakes);
+  }
+
+  //
+  // This function returns a number between (maximum - offset) and (maximum + offset)
+  //
+  function getPosition(offset, size) {
+    return Math.round(-1 * offset + Math.random() * (size + 2 * offset));
+  }
+
+  //
+  // Trigger a reset of all the snowflakes' positions
+  //
+  function setResetFlag(e) {
+    resetPosition = true;
+  }
+</script>
+	
+	
 </body>
 </html>
